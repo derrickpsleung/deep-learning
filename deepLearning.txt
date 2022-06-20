@@ -1,0 +1,7 @@
+Machine Learning
+	overfitting
+		Regularization
+	training error
+		is the error that you get when you run the trained model back on the training data. Remember that this data has already been used to train the model and this necessarily doesn't mean that the model once trained will accurately perform when applied back on the training data itself.
+	validation / test error
+		is the error when you get when you run the trained model on a set of data that it has previously never been exposed to. This data is often used to measure the accuracy of the model before it is shipped to production.
