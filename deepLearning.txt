@@ -1,7 +1,77 @@
 Machine Learning
 	overfitting
 		Regularization
+			dropout Regularization
 	training error
 		is the error that you get when you run the trained model back on the training data. Remember that this data has already been used to train the model and this necessarily doesn't mean that the model once trained will accurately perform when applied back on the training data itself.
 	validation / test error
 		is the error when you get when you run the trained model on a set of data that it has previously never been exposed to. This data is often used to measure the accuracy of the model before it is shipped to production.
+
+---------------------
+
+DeepLearning.AI:
+
+Course 1 Neural Networks and Deep Learning:
+
+Week 2 Neural Networks Basics:
+
+Binary Classification
+{
+https://www.learndatasci.com/glossary/binary-classification/
+}
+Logistic Regression
+Logistic Regression Cost Function
+Gradient Descent
+Derivatives
+More Derivative Examples
+Computation Graph
+Derivatives with a Computation Graph
+Logistic Regression Gradient Descent
+Gradient Descent on m Examples
+Vectorization
+More Vectorization Examples
+Vectorizing Logistic Regression
+Vectorizing Logistic Regression's Gradient Output
+Explanation of Logistic Regression Cost Function (Optional)
+
+Week 3 Shallow Neural Networks:
+
+Neural Networks Overview
+Neural Network Representation
+Computing a Neural Network's Output
+Vectorizing Across Multiple Examples
+Explanation for Vectorized Implementation
+Activation Functions
+Why do you need Non-Linear Activation Functions?
+Derivatives of Activation Functions
+Gradient Descent for Neural Networks
+Backpropagation Intuition (Optional)
+Random Initialization
+
+
+
+softmax activation function:
+https://machinelearningmastery.com/softmax-activation-function-with-python/
+
+
+Binomial probability distribution
+	0/1 e.g. Yes / No
+Multinomial probability
+	e.g. guess the number from the image, correct answer is "3",
+	and AI calculated the likelihood of numbers
+		e.g. "3" with 0.8 probability, "5" with 0.2 probability = 1 in total
+
+one-hot encoding:
+e.g.
+red,	green,	blue
+1,		0,		0
+0,		1,		0
+0,		0,		1
+
+Building a neural network FROM SCRATCH (no Tensorflow/Pytorch, just numpy & math):
+https://www.youtube.com/watch?v=w8yWXqWQYmU&t=176s&ab_channel=SamsonZhang
+
+mnist dataset
+
+Machine Learning in Action
+
